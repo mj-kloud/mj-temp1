@@ -30,7 +30,16 @@ const Contact = () => (
         </div>
         <div className="form-grid">
           <label htmlFor="phone">Phone Number</label>
-          <input id="phone" name="phone" type="tel" placeholder="+1 (555) 123-4567" required />
+          <input
+            id="phone"
+            name="phone"
+            type="tel"
+            placeholder="10-digit phone number"
+            pattern="[0-9]{10}"
+            title="Enter a 10-digit phone number"
+            inputMode="numeric"
+            required
+          />
         </div>
         <div className="form-grid">
           <label htmlFor="query">Project Details</label>
