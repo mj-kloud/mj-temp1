@@ -172,6 +172,10 @@ body {
   gap: 20px;
 }
 
+.service-grid-spaced {
+  margin-top: 24px;
+}
+
 .service-card {
   background: var(--white);
   padding: 24px;
