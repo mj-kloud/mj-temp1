@@ -29,6 +29,10 @@ const Contact = () => (
           <input id="email" name="email" type="email" placeholder="you@company.com" required />
         </div>
         <div className="form-grid">
+          <label htmlFor="phone">Phone Number</label>
+          <input id="phone" name="phone" type="tel" placeholder="+1 (555) 123-4567" required />
+        </div>
+        <div className="form-grid">
           <label htmlFor="query">Project Details</label>
           <textarea id="query" name="query" placeholder="Tell us about your cloud goals" required></textarea>
         </div>
