@@ -31,7 +31,7 @@ const Home = () => (
         </div>
       </div>
       <div>
-        <h2 className="section-title">GCP expertise that scales with you</h2>
+        <h2 className="section-title">We scale your GCP</h2>
         <p>
           We help product and platform teams move from reactive firefighting to proactive cloud operations. Our
           specialists align architecture, security, and financial controls with your product roadmap.
